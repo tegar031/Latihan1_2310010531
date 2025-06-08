@@ -15,7 +15,7 @@ public class Matematika {
         return bil1 + bil2;
     }
     //Membuat method setPengurangan
-    public double setPenurangan(){
+    public double setPengurangan(){
         return bil1 - bil2;
     }
     
