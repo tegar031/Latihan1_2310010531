@@ -5,4 +5,10 @@ public class Rumus {
     //Nama : M.Tegar Adhitya Qur'ani
     //NPM : 2310010531
     //Kelas : REG 4A Pagi BJM
+    
+    //Membuat Atribut
+    public String sisi;
+    public String panjang;
+    public String lebar;
+    public String hasil;
 }
