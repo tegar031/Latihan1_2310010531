@@ -4,8 +4,7 @@ package latihan3;
 
 public class RumusBeraksi {
     public static void main(String[] args) {
-        // buat nama objek dengan nama panggilan
-        // Membuat objek dari class Rumus dengan nama panggilan (misalnya: zailani)
+        // Membuat objek dari class Rumus dengan nama panggilan (misalnya: udin)
         Rumus Tegar = new Rumus();
 
         // Mengisi nilai sisi dan menghitung luas persegi
