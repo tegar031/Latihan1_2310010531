@@ -7,8 +7,22 @@ public class Rumus {
     //Kelas : REG 4A Pagi BJM
     
     //Membuat Atribut
-    public String sisi;
-    public String panjang;
-    public String lebar;
-    public String hasil;
+    public int sisi;
+    public int panjang;
+    public int lebar;
+    public int hasil;
+    
+    
+    // Method untuk menghitung luas persegi
+    public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+        System.out.println("Luas Persegi = " + hasil);
+    }
+
+    // Method untuk menghitung luas persegi panjang
+    public void hitungLuasPersegiPanjang() {
+        hasil = panjang * lebar;
+        System.out.println("Luas Persegi Panjang = " + hasil);
+    }
+    
 }
