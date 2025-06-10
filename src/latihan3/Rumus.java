@@ -12,7 +12,14 @@ public class Rumus {
     public int lebar;
     public int hasil;
     
+     // Konstruktor: set semua atribut ke 0
+    public Rumus() {
+        sisi = 0;
+        panjang = 0;
+        lebar = 0;
+        hasil = 0;
     
+    }
     // Method untuk menghitung luas persegi
     public void hitungLuasPersegi() {
         hasil = sisi * sisi;
@@ -25,4 +32,8 @@ public class Rumus {
         System.out.println("Luas Persegi Panjang = " + hasil);
     }
     
+     // Accessor untuk mengembalikan nilai hasil
+    public int getHasil() {
+        return hasil;
+    }
 }
